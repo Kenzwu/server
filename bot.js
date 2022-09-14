@@ -34,12 +34,6 @@ function createBot() {
    bot.once('spawn', () => {
       console.log('\x1b[33m[BotLog] Bot joined to the server', '\x1b[0m');
       
-     var lol = config.utils['Lol'].lol;
-     setTimeout(() => {
-       bot.chat('Coucou, si vous avez un soucis dans le servuer n\'hesitez pas à contacter le staff!');
-      }, 500);
-        console.log(`lol commands executed.`);
-   }
       if (config.utils['auto-auth'].enabled) {
          console.log('[INFO] Started auto-auth module');
 
@@ -51,7 +45,13 @@ function createBot() {
 
          console.log(`[Auth] Authentification commands executed.`);
       }
-
+    var messagen = config.utils['auto-messagen'].messagen;
+         setTimeout(() => {
+            bot.chat(`Coucou! Si vous avez un soucis sur le serveur,`)
+            bot.chat(`N'hésitez pas a contacter le staff!`
+         }, 500);
+      console.log(`[Auth] Authentification commands executed.`);
+      }
       if (config.utils['chat-messages'].enabled) {
          console.log('[INFO] Started chat-messages module');
          var messages = config.utils['chat-messages']['messages'];
