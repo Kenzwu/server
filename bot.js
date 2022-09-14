@@ -45,13 +45,6 @@ function createBot() {
 
          console.log(`[Auth] Authentification commands executed.`);
       }
-    var messagen = config.utils['auto-messagen'].messagen;
-         setTimeout(() => {
-            bot.chat(`Coucou! Si vous avez un soucis sur le serveur,`)
-            bot.chat(`N'hésitez pas a contacter le staff!`
-         }, 500);
-      console.log(`[Auth] Authentification commands executed.`);
-      }
       if (config.utils['chat-messages'].enabled) {
          console.log('[INFO] Started chat-messages module');
          var messages = config.utils['chat-messages']['messages'];
