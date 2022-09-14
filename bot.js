@@ -33,7 +33,13 @@ function createBot() {
 
    bot.once('spawn', () => {
       console.log('\x1b[33m[BotLog] Bot joined to the server', '\x1b[0m');
-
+      
+     var lol = config.utils['Lol'].lol;
+     setTimeout(() => {
+       bot.chat('Yo!');
+      }, 500);
+        console.log(`lol commands executed.`);
+   }
       if (config.utils['auto-auth'].enabled) {
          console.log('[INFO] Started auto-auth module');
 
