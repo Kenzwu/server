@@ -1,0 +1,49 @@
+{
+  "bot-account": {
+    "username": "ECHO_MONDO",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "game4.falixserver.net",
+    "port": 26021,
+    "version": "1.12.2"
+  },
+
+  "position": {
+    "enabled": false,
+    "x": 1471,
+    "y": 12,
+    "z": 3174
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 60,
+
+      "messages": [
+        "I'm a regular player ",
+        "My owner is urFate_ ",
+        "I want be alone ",
+        "Visit my GitHub page! (urFate/Afk-Bot)"
+      ]
+    },
+
+    "chat-log": false,
+    "auto-reconnect": false,
+    "auto-recconect-delay": 5000
+  }
+}
