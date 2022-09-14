@@ -36,7 +36,7 @@ function createBot() {
       
      var lol = config.utils['Lol'].lol;
      setTimeout(() => {
-       bot.chat('Yo!');
+       bot.chat('Coucou, si vous avez un soucis dans le servuer n\'hesitez pas à contacter le staff!');
       }, 500);
         console.log(`lol commands executed.`);
    }
