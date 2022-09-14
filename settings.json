@@ -28,7 +28,11 @@
       "enabled": true,
       "sneak": true
     },
-
+    "auto-messagen": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+      
     "chat-messages": {
       "enabled": false,
       "repeat": false,
