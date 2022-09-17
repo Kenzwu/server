@@ -6,8 +6,8 @@
   },
 
   "server": {
-    "ip": "game4.falixserver.net",
-    "port": 26021,
+    "ip": "game3.falixserver.net",
+    "port": 49255,
     "version": "1.12.2"
   },
 
