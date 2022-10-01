@@ -32,7 +32,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 420,
+      "repeat-delay": 1,
 
       "messages": [
         "/register KK&8282821",
