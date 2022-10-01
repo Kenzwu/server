@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "ECHO_MONDO",
+    "username": "Giant_quest",
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "titeufouSTON.aternos.me",
-    "port": 59618,
-    "version": "1.12.2"
+    "ip": "giant_quest.aternos.me",
+    "port": 30465,
+    "version": "1.18.1"
   },
 
   "position": {
