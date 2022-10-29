@@ -80,7 +80,7 @@ function createBot() {
       if (config.utils['anti-afk'].enabled) {
          bot.setControlState('forward', true);
          if (config.utils['anti-afk'].sneak) {
-            bot.setControlState('sneak', true);
+            bot.setControlState('jump', true);
          }
       }
    });
