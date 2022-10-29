@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "Giant_quest",
+    "username": "kenzu",
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "giant_quest.aternos.me",
-    "port": 30465,
-    "version": "1.18.1"
+    "ip": "Dark_Hole.aternos.me",
+    "port": 37645,
+    "version": "1.19.2"
   },
 
   "position": {
